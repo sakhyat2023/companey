@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html {
+  @apply scroll-smooth
+}
+
 .navbar {
   background: url("../public/counter-background_2_wkepaf.png"), #fff;
   background-size: cover;
@@ -9,11 +15,11 @@
 }
 .hero-section {
   @apply bg-[#6527BE] text-white isolate;
-  background: #6527BE;
+  background: #6527be;
   background: linear-gradient(
     90deg,
-    rgba(150,129,235,1)0%,
-    rgba(101,39,190,1) 100%
+    rgba(150, 129, 235, 1) 0%,
+    rgba(101, 39, 190, 1) 100%
   ) !important;
 }
 .section-container {
@@ -99,7 +105,7 @@ COMMENT: quote section
   isolation: isolate;
 }
 .quote-container::after {
-  background: linear-gradient(to right, #9681EB, #6527BE);
+  background: linear-gradient(to right, #9681eb, #6527be);
   content: "";
   height: 100%;
   left: 0;

@@ -3,7 +3,7 @@ import emailImg from "../public/email.webp";
 import Image from "next/image";
 const NewsLetter = () => {
   return (
-    <div className="newletter bg-[#ebf8ff]">
+    <div className="contact-container bg-[#ebf8ff]" id="contact">
       <div className="section-container px-4">
         <div className="flex justify-center h-64">
           <div className="news-content flex flex-col md:flex-row items-center justify-center gap-5 md:gap-10 w-full">

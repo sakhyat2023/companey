@@ -7,7 +7,7 @@ import customDivider from "../public/asset5.png";
 export default function About() {
   return (
     <div className="section-container">
-      <div className="section-box">
+      <div className="section-box"  id="about">
         <div className="section-box-left about-us-left">
           <div className="about-logo-title-small-screen md:hidden grid justify-center text-center mb-10">
             <Image
