@@ -58,7 +58,7 @@ const Navbar = () => {
                 <Link
                   key={i}
                   href={link.path}
-                  className="capitalize text-black px-3 py-2 text-sm font-medium border-b"
+                  className="capitalize text-black px-3 py-2 text-sm font-medium"
                   onClick={closeMenu}
                 >
                   {link.name}
