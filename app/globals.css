@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar {
+  background: url("../public/counter-background_2_wkepaf.png"), #fff;
+  background-size: cover;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+}
+.hero-section {
+  @apply bg-[#6527BE] text-white isolate;
+  background: #6527BE;
+  background: linear-gradient(
+    90deg,
+    rgba(150,129,235,1)0%,
+    rgba(101,39,190,1) 100%
+  ) !important;
+}
+.section-container {
+  @apply max-w-7xl mx-auto px-4;
+}
+.section-box {
+  @apply flex flex-col items-center md:flex-row  justify-center md:justify-between md:items-center py-24 px-4;
+}
+.hero-box {
+  @apply pt-40;
+}
+
+image {
+  @apply max-w-[100%] object-cover;
+}
+
+.section-box-text {
+  @apply flex flex-col gap-6 items-center md:items-start;
+}
+.section-box-text hr {
+  @apply w-[160px] h-[2px] bg-[#497ab3] border-0;
+}
+.hero-shape {
+  z-index: -1;
+  @apply absolute bottom-0 w-full left-0 right-0;
+}
+.hero-right {
+  transform: scale(-1, 1.15);
+}
+.hero-image {
+  @apply mt-20 md:mt-0 w-[300px] md:w-full;
+}
+
+.thumb-gif {
+  width: 60px;
+}
+.divider-image {
+  /* margin-top: -20px; */
+  width: 140px;
+}
+
+/* **************************************** 
+COMMENT: services section  
+***************************************** */
+.services-container {
+  background: url("../public/counter-background_2_wkepaf.png"), #fff;
+  background-size: 180%;
+  background-position: -140% -300%;
+  padding: 100px 1rem;
+}
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+.service-card {
+  @apply p-8 bg-white;
+  box-shadow: 0 10px 25px rgb(0 0 0 / 10%);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 1rem;
+  border-radius: 8px;
+}
+.service-card .service-card-title {
+  @apply font-bold text-xl text-gray-800;
+}
+
+@media (max-width: 540px) {
+  .services-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* **************************************** 
+COMMENT: quote section   
+***************************************** */
+.quote-container {
+  @apply text-white relative;
+  background: url("../public/asset39.jpeg");
+  background-size: cover;
+  background-position: center center;
+  isolation: isolate;
+}
+.quote-container::after {
+  background: linear-gradient(to right, #9681EB, #6527BE);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+/* **************************************** 
+COMMENT: testimonial section   
+***************************************** */
+
+.testimonial-card {
+  @apply p-8 bg-white;
+  box-shadow: 0 10px 25px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+}
