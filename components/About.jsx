@@ -1,8 +1,8 @@
 import Image from "next/image";
-import aboutImage from "../public/asset3.png";
-import thumbGif from "../public/asset6.gif";
-import miniLogo from "../public/asset4.png";
-import customDivider from "../public/asset5.png";
+import aboutImage from "@/public/asset3.png";
+import thumbGif from "@/public/asset6.gif";
+import miniLogo from "@/public/asset4.png";
+import customDivider from "@/public/asset5.png";
 
 export default function About() {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import aboutImage from "../public/asset15.webp";
-import miniLogo from "../public/asset4.png";
-import customDivider from "../public/asset5.png";
+import aboutImage from "@/public/asset15.webp";
+import miniLogo from "@/public/asset4.png";
+import customDivider from "@/public/asset5.png";
 
 export default function WhyUs() {
   return (

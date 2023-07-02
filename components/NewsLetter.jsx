@@ -1,5 +1,5 @@
 import React from "react";
-import emailImg from "../public/email.webp";
+import emailImg from "@/public/email.webp";
 import Image from "next/image";
 const NewsLetter = () => {
   return (

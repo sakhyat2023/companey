@@ -1,6 +1,6 @@
 import Image from "next/image";
-import heroImage from "../public/asset1.webp";
-import heroShape from "../public/hero-shape.PNG";
+import heroImage from "@/public/asset1.webp";
+import heroShape from "@/public/hero-shape.PNG";
 export default function HeroSection() {
   return (
     <div className="hero-section relative">

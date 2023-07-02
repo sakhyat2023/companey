@@ -7,9 +7,9 @@ import "swiper/css/pagination";
 import { BiSolidStar } from "react-icons/bi";
 import { BsStarHalf } from "react-icons/bs";
 import Image from "next/image";
-import miniLogo from "../public/asset4.png";
-import customDivider from "../public/asset5.png";
-import img1 from "../public/t3.png";
+import miniLogo from "@/public/asset4.png";
+import customDivider from "@/public/asset5.png";
+import img1 from "@/public/t3.png";
 
 const Projects = () => {
   const sliderData = [

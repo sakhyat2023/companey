@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import logo from "../public/asset0.svg";
+import { useState } from "react";
+import logo from "@/public/asset0.svg";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoIosClose } from "react-icons/io";
 import Image from "next/image";

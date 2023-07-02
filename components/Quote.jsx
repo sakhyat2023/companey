@@ -1,6 +1,6 @@
 import Image from "next/image";
-import quoteImage from "../public/asset14.webp";
-import miniLogo from "../public/asset4.png";
+import quoteImage from "@/public/asset14.webp";
+import miniLogo from "@/public/asset4.png";
 
 export default function Quote() {
   return (
