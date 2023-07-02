@@ -40,13 +40,7 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
-  useEffect(() => {
-    const { hash } = window.location
-    if(hash){
-      const el = document.querySelector(hash)
-      el && el.scrollIntoView()
-    }
-  },[])
+
 
   return (
     <div className="fixed  top-0 w-full ease-in duration-300 bg-white z-[50]">
@@ -63,14 +57,14 @@ const Navbar = () => {
           <div className="hidden md:block sm:ml-6">
             <ul className="flex gap-10">
               {navLinks.map((link, i) => (
-                <Link
+                <a
                   key={i}
                   href={link.path}
                   className="capitalize text-black px-3 py-2 text-sm font-medium"
                   onClick={closeMenu}
                 >
                   {link.name}
-                </Link>
+                </a>
               ))}
             </ul>
           </div>
