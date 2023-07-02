@@ -40,11 +40,9 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
-
-
   return (
-    <div className="fixed  top-0 w-full ease-in duration-300 bg-white z-[50]">
-      <div className="max-w-7xl navbar mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="fixed top-0 w-full ease-in duration-300 bg-white z-[50]">
+      <div className="max-w-7xl navbar mx-auto px-4">
         <div className="flex items-center justify-between h-30">
           <div className="logo">
             <Link href="/" onClick={closeMenu}>
@@ -71,8 +69,8 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden" id="mobile-menu">
-          <div className="flex flex-col px-4 pt-2 pb-3 space-y-1">
+        <div className="md:hidden">
+          <div className="flex flex-col px-4 pt-2 pb-3">
             {navLinks.map((link, i) => (
               <a
                 key={i}

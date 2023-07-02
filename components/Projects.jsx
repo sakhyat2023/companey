@@ -55,7 +55,7 @@ const Projects = () => {
             src={customDivider}
             alt="small logo"
           />
-          <p className="text-center w-96 mx-auto text-[#666666]">
+          <p className="text-center w-80 mx-auto text-[#666666]">
             We deliver the digital result you desire. For whom we have this
             platform, their comments about us
           </p>
