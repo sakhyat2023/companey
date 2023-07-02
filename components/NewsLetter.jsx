@@ -14,7 +14,7 @@ const NewsLetter = () => {
               height={60}
               className="hidden md:flex"
             />
-            <div className="flex md:flex-col gap-1 md:w-64">
+            <div className="text-[10px] md:text-sm flex md:flex-col gap-1 md:w-64">
               <span>
                 <span className="font-bold">Subscribe</span> your email for
               </span>
@@ -23,7 +23,7 @@ const NewsLetter = () => {
               </span>
             </div>
           </div>
-          <form className="flex flex-col md:flex-row items-center w-full">
+          <form className="flex flex-col md:flex-row items-center w-full" >
             <div className="flex w-full">
               <input
                 type="email"

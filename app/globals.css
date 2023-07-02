@@ -146,4 +146,9 @@ COMMENT: testimonial section
   --swiper-navigation-color: #6527be !important;
 }
 
+@media (max-width: 480px){
+  .testimonial-card{
+    box-shadow: none;
+  }
+}
 

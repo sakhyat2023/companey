@@ -40,8 +40,8 @@ const Projects = () => {
   ];
   return (
     <div className="swiper-container relative" id="testimonial">
-      <div className="slider-info max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto px-10 md:px-4">
-        <div className="services-logo-title mb-8">
+      <div className="slider-info max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto px-4">
+        <div className="testimonial-logo-title mb-8 max-w-xl mx-auto">
           <Image
             className="mini-logo-image mb-2 mx-auto"
             src={miniLogo}
@@ -55,7 +55,7 @@ const Projects = () => {
             src={customDivider}
             alt="small logo"
           />
-          <p className="text-center w-80 mx-auto text-[#666666]">
+          <p className="text-[#666666] text-xs md:text-xl text-center py-2">
             We deliver the digital result you desire. For whom we have this
             platform, their comments about us
           </p>
@@ -80,8 +80,8 @@ const Projects = () => {
           {sliderData.map((item) => (
             <SwiperSlide key={item.id}>
               <div className="testimonial-card">
-                <div className="slider-info py-3 px-10">
-                  <div className="info flex items-center">
+                <div className="slider-info text-center md:text-start py-3 px-2 md:px-10">
+                  <div className="info flex flex-col md:flex-row items-center">
                     <div className="thumb">
                       <Image src={img1} alt="" width={130} height={130} />
                     </div>
@@ -93,8 +93,8 @@ const Projects = () => {
                       <BsStarHalf size={16} />
                     </div>
                   </div>
-                  <div className="-mt-12 mb-4 leading-6 text-[#232323]">
-                    <p className="indent-[7rem]">
+                  <div className="md:-mt-12 mb-4 leading-6 text-[#232323]">
+                    <p className="md:indent-[7rem] mt-2">
                       Great service...I didn't have any ideas on how to get
                       started and seller patiently worked with me through the
                       whole process.
