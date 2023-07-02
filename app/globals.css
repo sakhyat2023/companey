@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 
+
+
 html {
-  @apply scroll-smooth
+  @apply scroll-smooth;
 }
 
 .navbar {
@@ -120,7 +122,28 @@ COMMENT: testimonial section
 ***************************************** */
 
 .testimonial-card {
-  @apply p-8 bg-white;
-  box-shadow: 0 10px 25px rgb(0 0 0 / 10%);
-  border-radius: 8px;
+  @apply bg-white my-8;
+  box-shadow: 0px 0px 15px 5px lightgray;
+  border-radius: 10px;
 }
+.swiper-container {
+  background: url("../public/counter-background_2_wkepaf.png"), #fff;
+  background-size: 180%;
+  background-position: -180% -300%;
+  padding: 100px 1rem;
+}
+
+.swiper-button-next{
+  right: 0% !important;
+}
+.swiper-button-prev{
+  left: 0% !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  --swiper-navigation-size: 25px !important;
+  --swiper-navigation-color: #6527be !important;
+}
+
+

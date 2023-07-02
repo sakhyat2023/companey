@@ -2,7 +2,6 @@
 import Image from "next/image";
 import miniLogo from "../public/asset4.png";
 import customDivider from "../public/asset5.png";
-import servicecard1 from "../public/asset12.png";
 import services from "../data/services.js";
 export default function Services() {
   const servicesCardsJSX = services.map((service, i) => {
