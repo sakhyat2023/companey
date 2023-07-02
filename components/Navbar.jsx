@@ -74,14 +74,14 @@ const Navbar = () => {
         <div className="md:hidden" id="mobile-menu">
           <div className="flex flex-col px-4 pt-2 pb-3 space-y-1">
             {navLinks.map((link, i) => (
-              <Link
+              <a
                 key={i}
                 href={link.path}
                 className="capitalize text-black px-3 py-2 text-sm font-medium border-b"
                 onClick={closeMenu}
               >
                 {link.name}
-              </Link>
+              </a>
             ))}
           </div>
         </div>
