@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "../public/asset0.svg";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoIosClose } from "react-icons/io";
@@ -39,6 +39,14 @@ const Navbar = () => {
   const closeMenu = () => {
     setIsOpen(false);
   };
+
+  useEffect(() => {
+    const { hash } = window.location
+    if(hash){
+      const el = document.querySelector(hash)
+      el && el.scrollIntoView()
+    }
+  },[])
 
   return (
     <div className="fixed  top-0 w-full ease-in duration-300 bg-white z-[50]">
