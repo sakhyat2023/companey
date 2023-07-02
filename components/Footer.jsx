@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import footerImg from "../public/FOOTER logo 1.png"
+import footerImg from "@/public/footer.png"
 const Footer = () => {
   const [showLinks, setShowLinks] = useState(false);
   const [showContact, setShowContact] = useState(false);
